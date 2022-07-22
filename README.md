@@ -5,13 +5,9 @@
 </p>
 
 <p align='center'>
-  <a href="#"><img src="https://img.shields.io/github/stars/darlisamorim/StrapDown.js.svg?style=social&label=Star&maxAge=2592000"></a>&nbsp;&nbsp;&nbsp;
   <a href="#"><img src="https://visitor-badge.glitch.me/badge?page_id=darlisamorim.darlisamorim??style=for-the-badge&logo=appveyor"></a>&nbsp;&nbsp;&nbsp;
   <a href="#"><img src="https://img.shields.io/github/followers/darlisamorim.svg?style=social&label=Follow&maxAge=2592000"></a>
 </p>
-
-[![GitHub stars]()](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
-
 
 
 <p align='center'>
