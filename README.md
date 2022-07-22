@@ -73,3 +73,4 @@
 </p>
 
 
+  ![Snake animation](https://github.com/darlisamorim/darlisamorim/blob/output/github-contribution-grid-snake.svg)
