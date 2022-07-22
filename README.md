@@ -71,6 +71,3 @@
   <a title=" | " href=""><img src="https://img.shields.io/badge/Steam-%23000000.svg?&style=for-the-badge&logo=steam&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;
   <h5 align="right">🎮 To have fun and pass the time...</h5>
 </p>
-
-
-  ![Snake animation](https://github.com/darlisamorim/darlisamorim/blob/output/github-contribution-grid-snake.svg)
