@@ -1,13 +1,15 @@
 <h1 align='center'> Hi there 👋, I'm Darlis A. Amorim_  🧑🏻‍💻 </h1>
 
 <p align='center'>
-  I live in São Paulo/SP, Brazil and work as <b>Freelancer</b> 
+  I live in São Paulo/SP, Brazil and work as <b>Freelancer</b>. 
 </p>
 
 <p align='center'>
   <a href="#"><img src="https://visitor-badge.glitch.me/badge?page_id=darlisamorim.darlisamorim??style=for-the-badge&logo=appveyor"></a>&nbsp;&nbsp;&nbsp;
   <a href="#"><img src="https://img.shields.io/github/followers/darlisamorim.svg?style=social&label=Follow&maxAge=2592000"></a>
 </p>
+
+
 
 
 <p align='center'>
