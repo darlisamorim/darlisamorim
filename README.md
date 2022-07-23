@@ -1,4 +1,4 @@
-<h1 align='center'> Hi there 👋, I'm Darlis A. Amorim_  🧑🏻‍💻 </h1>
+<h1 align='center'> Hi there 👋, I am Darlis A. Amorim_  🧑🏻‍💻 </h1>
 
 <p align='center'>
   I live in São Paulo/SP, Brazil and work as <b>Freelancer</b>. 
