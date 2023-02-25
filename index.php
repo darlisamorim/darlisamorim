@@ -1,1 +1,5 @@
-<h1>Initial</h1>
+<?php 
+
+	phpinfo();
+
+?>
