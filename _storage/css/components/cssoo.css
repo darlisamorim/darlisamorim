@@ -1,0 +1,132 @@
+/* All Variables */
+:root {
+
+	/* Colors Options
+		https://coolors.co/
+
+		#D90429;
+		#D94555;
+
+		#D31027;
+		#EA385D;
+		
+		#17181C;	
+		#f3f3f3;
+		#EBEBEB;
+		#FFFFFF;
+		#000000;
+		#28292b
+	*/
+
+	/* Color Base Default */
+	--black: hsl(0, 0%, 0%);
+	--black-hsla: hsla(0, 0%, 0%, .7); /* Black Transparent */
+
+	--white: hsl(0, 0%, 100%);
+	--white-hsla: hsla(0, 0%, 100%, .7); /* White Transparent */
+	--white-var: hsl(0, 0%, 92.16%);
+
+	--gray: hsl(228, 9.8%, 10%);
+	--gray-hsla: hsla(0, 0%, 16%, .7);
+	--gray-var: hsl(220, 4%, 16%);
+
+
+	/* Color Main */
+	--color-first-hue: 349.58;
+	--color-first-hsla: 1;
+	--color-first: hsla(var(--color-first-hue), 96.38%, 43.33%, var(--color-first-hsla));
+
+
+	/* Second Main */
+	--color-second-hue: 353.51;
+	--color-second-hsla: 1;
+	--color-second: hsla(var(--color-second-hue), 66.07%, 56.08%, var(--color-second-hsla));
+
+
+	/* Color Gradients */
+	--gradient-red: linear-gradient(90deg, rgba(217, 0, 48, .95) 5%, rgba(171, 50, 76, .95) 89%);
+	--gradient-blue: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+	--gradient-black: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+
+
+	/* Start */
+	--fz: 0em !important;
+	--mz: 0;
+	--pz: 0;
+	--dn: none;
+	--font-name: 'Roboto Mono', monospace, sans-serif;
+
+	/* Convert Size -> ( px ) to ( em ) {N / 16} = Result */
+	--font-mini: .525em;	/* 8.4px */
+	--font-normal: .875em;	/* 14px */
+	--font-smaller: 1.175em;	/* 16px */
+	--font-small: 1.375em;	/* 34px */
+	--font-big: 2.175em;
+	--font-icon: 3.175em;	/* 34px */
+
+	/* Negrito */
+	--weight-mini: 400;
+	--weight-medium: 500;
+	--weight-bolder: 600;
+	--weight-bold: 700;
+
+	/* Contents */
+	--container-with: 100%;
+	--content-max-width: 1600px;
+	--content-width: 90%;
+
+	/* Border Radius */
+	--radius: 6px;
+	--radius-50: 50%;
+
+	/* Box Shadow */
+	--box-shadow: 1px 1px 6px 0px var(--black-hsla);
+
+	/* Text Shadow */
+  	--text-shadow: 1.4px 2px 0px var(--black);
+
+	/* Transition */
+	--transition: all 280ms ease-in-out;
+
+	/* Rotate */
+	--rotate: rotate(-5deg);
+
+	/* Scale */
+	--scale: scale(1.6);
+}
+
+/* Container's Block */
+.container {
+	width: var(--container-with);
+	display: block;
+}
+.content {
+	width: var(--content-width);
+	max-width: var(--content-max-width);
+	display: block;
+	margin: 0 auto;
+}
+
+/* Container's Flex */
+.container__flex {
+	width: var(--container-with);
+	display: flex;
+	flex-wrap: wrap;
+}
+.content__flex {
+	width: var(--content-width);
+	max-width: var(--content-max-width);
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.fz {
+	font-size: var(--fz);
+	padding: var(--pz);
+	margin: var(--mz);
+}
+
+.dn {
+	display: var(--dn);
+}

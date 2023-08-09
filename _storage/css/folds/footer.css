@@ -1,0 +1,75 @@
+/* Footer */
+.footer {
+  padding: 20px 0;
+  background-color: var(--gray);
+  color: var(--white);
+}
+.footer a {
+  text-decoration: none;
+}
+.footer p {
+  margin: 0;
+}
+.footer .bx,
+.footer .fas {
+  font-size: var(--font-big);
+}
+.footer .copy__social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 4.5;
+}
+.footer .copy__social__title {
+  display: flex;
+  align-items: center;
+}
+.footer .copy__social__title .fas {
+  margin-right: 16px;
+}
+.footer .copy__social ul {
+  display: flex;
+}
+.footer .copy__social ul li {
+  margin-right: 18px;
+}
+.footer .copy__social ul li:last-child {
+  margin-right: 0;
+}
+.footer .copy__social ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.contact {
+  width: auto;
+  position: fixed;
+  right: 15px;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 30px;
+  position: relative;
+  text-decoration: none;
+  padding: 4px 12px;
+  font-weight: var(--weight-medium);
+  color: var(--black);
+  background-color: var(--color-first);
+  margin-bottom: 12px;
+}
+.contact a span {
+  position: absolute;
+  right: 45px;
+}
+.contact a .bx {
+  font-size: var(--font-small);
+}
