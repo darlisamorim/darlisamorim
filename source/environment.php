@@ -1,4 +1,3 @@
-<?php
 
   // URL BASE
   define('BASE', 'www.darlisalvesamorim.com'); // Url raiz do website

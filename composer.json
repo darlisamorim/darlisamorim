@@ -1,0 +1,30 @@
+{
+  "name": "darlisamorim/fullstackdeveloper",
+  "description": "Developer Project",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Darlis A. Amorim",
+      "email": "eu@darlisalvesamorim.dev",
+      "role": "Developer",
+      "homepage": "https://www.darlisalvesamorim.dev"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "2.0.*",
+    "coffeecode/optimizer": "2.1.1",
+    "phpmailer/phpmailer": "v6.8.0"
+  }
+}
