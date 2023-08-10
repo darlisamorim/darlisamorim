@@ -7,5 +7,5 @@ define('BASE', 'www.darlisalvesamorim.com'); // Url raiz do website
 if($_SERVER['HTTP_HOST'] == 'localhost'):
     define('DOMAIN', 'http://localhost/darlisamorim'); // Url localhost do website
 else:
-    define('DOMAIN', 'https://www.darlisalvesamorim.dev'); // Url raiz do website
+    define('DOMAIN', 'https://darlisalvesamorim.dev'); // Url raiz do website
 endif;
