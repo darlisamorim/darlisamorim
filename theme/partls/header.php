@@ -35,30 +35,30 @@ require 'source/environment.php';
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!-- All Styles -->
-    <link rel="stylesheet" href="_storage/css/components/cssoo.css"> <!-- Defines CSS -->
-    <link rel="stylesheet" href="_storage/css/components/normalize.css">
+    <link rel="stylesheet" href="../../_storage/css/components/cssoo.css"> <!-- Defines CSS -->
+    <link rel="stylesheet" href="../../_storage/css/components/normalize.css">
     <!-- Reset CSS -> https://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" href="_storage/css/components/reset.css"> <!-- Reset CSS -->
 
-    <link rel="stylesheet" href="_storage/css/components/boxicons.css"> <!-- Boxicons -> https://boxicons.com/ -->
-    <link rel="stylesheet" href="_storage/css/components/fontawesome.css">
+    <link rel="stylesheet" href="../../_storage/css/components/boxicons.css"> <!-- Boxicons -> https://boxicons.com/ -->
+    <link rel="stylesheet" href="../../_storage/css/components/fontawesome.css">
     <!-- Fontawesome -> https://fontawesome.com/icons -->
-    <link rel="stylesheet" href="_storage/css/components/line-awesome.css">
+    <link rel="stylesheet" href="../../_storage/css/components/line-awesome.css">
     <!-- Line-Awesome -> https://icons8.com/line-awesome -->
 
-    <link rel="stylesheet" href="_storage/css/components/iconscout.css">
+    <link rel="stylesheet" href="../../_storage/css/components/iconscout.css">
     <!-- Iconscout -> https://iconscout.com/ *Pending -->
-    <link rel="stylesheet" href="_storage/css/components/icomoon.css"> <!-- Icomoon -> https://icomoon.io/ *Pending -->
+    <link rel="stylesheet" href="../../_storage/css/components/icomoon.css"> <!-- Icomoon -> https://icomoon.io/ *Pending -->
 
-    <link rel="stylesheet" href="_storage/css/folds/header.css">
-    <link rel="stylesheet" href="_storage/css/folds/main.css">
-    <link rel="stylesheet" href="_storage/css/folds/footer.css">
+    <link rel="stylesheet" href="../../_storage/css/folds/header.css">
+    <link rel="stylesheet" href="../../_storage/css/folds/main.css">
+    <link rel="stylesheet" href="../../_storage/css/folds/footer.css">
 
-    <link rel="stylesheet" href="_storage/css/components/queries.css"> <!-- Media Queries -->
-    <link rel="stylesheet" href="_storage/css/components/animate.css"> <!-- Animete Style -->
+    <link rel="stylesheet" href="../../_storage/css/components/queries.css"> <!-- Media Queries -->
+    <link rel="stylesheet" href="../../_storage/css/components/animate.css"> <!-- Animete Style -->
 
     <!--[if lt IE 9]>
-      <script src="<?= DOMAIN; ?>/_storage/js/html5shiv.js"></script>
+    <script src=<?= DOMAIN; ?>"/_storage/js/html5shiv.js" ></script>
     <![endif]-->
 
 </head>
