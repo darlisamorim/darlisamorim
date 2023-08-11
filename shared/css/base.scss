@@ -1,0 +1,17 @@
+/*
+ *  All Components & Folds
+*/
+@import "../../../../shared/styles/normalize";
+@import "../../../../shared/styles/fonts";
+@import "components/oocss";
+@import "../../theme/assets/css/components/queries";
+@import "../../../../shared/styles/animate";
+
+
+
+@import "folds/header";
+@import "folds/main";
+@import "folds/footer";
+
+
+
