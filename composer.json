@@ -28,7 +28,7 @@
     "ext-json": "*",
     "coffeecode/router": "2.0.2",
     "coffeecode/optimizer": "2.1.1",
-    "coffeecode/datalayer": "2.1.1",
+    "coffeecode/datalayer": "2.0.7",
     "phpmailer/phpmailer": "v6.8.0",
     "matthiasmullie/minify": "1.3.71",
     "league/plates": "dev-support-php-82"

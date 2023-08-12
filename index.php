@@ -2,31 +2,52 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-
 use CoffeeCode\Router\Router;
 
+
+/**
+ * Url Base
+ */
 $router = new Router(DOMAIN);
 
+
+/**
+ * Controllers
+ */
+$router->namespace("Source\Controllers");
+
+/**
+ * Web
+ * Home
+ */
 $router->group(null);
-$router->get("/", function ($data){
-    echo "<h1>Composer AutoLoad 1</h1>";
-    var_dump($data);
-});
+$router->get("/", "Web:home");
+$router->get("/open-source", "Web:source");
 
-$router->get("/contato", function ($data){
-    echo "<h1>Contato</h1>";
-    var_dump($data);
-});
 
+/**
+ * Routas
+ * Redirects
+ */
+$router->group("pages");
+$router->get("/", "Web:source");
+
+/**
+ * 404
+ */
 $router->group("ooooooopps");
-$router->get("/{errcode}", function ($data){
-    echo "<h1>Erro {$data["errcode"]}</h1>";
-    var_dump($data);
-});
+$router->get("/{errcode}", "Web:error");
+$router->get("/source", "Web:error");
 
 
+/**
+ * Render
+ */
 $router->dispatch();
 
+/**
+ * Redirect 404
+ */
 if($router->error()){
     $router->redirect("/ooooooopps/{$router->error()}");
 }
