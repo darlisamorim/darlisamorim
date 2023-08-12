@@ -2,7 +2,7 @@
 
 namespace Source\Controllers;
 
-class bBK
+class Web
 {
     public function home($data): void
     {
