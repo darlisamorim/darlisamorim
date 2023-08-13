@@ -1,0 +1,197 @@
+/* Variables OOCSS */
+
+/* Colors Options
+ * https://coolors.co/
+*/
+
+/* Default Colors */
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+$gray: hsl(228, 9.8%, 10%);
+
+/* First Color  */
+$color-first-hue: 349.58;
+$color-first-hsla: 1;
+$color-first: hsla($color-first-hue, 96.38%, 43.33%, $color-first-hsla);
+
+/* Second Color  */
+$color-second-hue: 353.51;
+$color-second-hsla: 1;
+$color-second: hsla($color-second-hue, 66.07%, 56.08%, $color-second-hsla);
+
+
+/* Gradient Color */
+//--gradient-red: linear-gradient(90deg, rgba(217, 0, 48, .95) 5%, rgba(171, 50, 76, .95) 89%);
+//--gradient-blue: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+//--gradient-black: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+//
+//.gradient_red {
+//  background: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+//}
+//$gradient_red: linear-gradient(54deg, rgba(74,76,179,.95) 34%, hsla(0,34%,71%,.95));
+//
+
+/* Container's Block */
+$font-name: 'Source Code Pro', monospace, sans-serif;
+$fz: 0em !important;
+$mz: 0;
+$pz: 0;
+$dn: none;
+
+/* Hack's */
+.fz {
+  font-size: $fz;
+  padding: $pz;
+  margin: $mz;
+}
+.dn {
+  display: $dn;
+}
+
+
+/*
+ * Convert Size -> ( px ) to ( em ) {N / 16} = Result
+ *
+ * Size Font
+ *
+ */
+$font-mini: .625em;	      // 10px ^
+$font-normal: .875em;	  // 14px
+$font-smaller: 1.125em;   // 18px ^
+$font-small: 1.375em;     // 22px
+$font-big: 1.75em;        // 28px
+
+/* Size Font Icon */
+$font-icon-normal: 1.125em;   // 18px
+$font-icon-big: 3.125em;      // 50px
+
+
+/*
+ *
+ * Contents Vars
+ *
+ */
+$container-with: 100%;
+$content-max-width: 1600px;
+$content-width: 90%;
+
+/* Container's Block */
+.container {
+  width: $container-with;
+  display: block;
+}
+.content {
+  width: $content-width;
+  max-width: $content-max-width;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container's Flex */
+.container__flex {
+  width: $container-with;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content__flex {
+  width: $content-width;
+  max-width: $content-max-width;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
+/*
+ * Mixin's Sass
+ *
+ *  EX: @include border-radius: 50%;
+ *
+ */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+
+/*
+ * Transition Sass
+ *
+ *  EX: @include $transition: all 280ms ease-in-out;
+ *
+ */
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+  transition: $transition;
+}
+
+
+/*
+ * Box-Shadow Sass
+ *
+ *  EX: @include $bshadow: 2px 2px 10px 2px $color;
+ *
+ */
+@mixin box-shadow($bshadow) {
+  -webkit-box-shadow: ($bshadow);
+     -moz-box-shadow: ($bshadow);
+  box-shadow: ($bshadow);
+}
+
+
+/*
+ * Text-Shadow Sass
+ *
+ *  EX: @include $tshadow: 2px 2px 10px 2px $color;
+ *
+ */
+@mixin text-shadow($tshadow) {
+  -webkit-text-shadow: ($tshadow);
+     -moz-text-shadow: ($tshadow);
+  text-shadow: ($tshadow);
+}
+
+
+
+
+/*
+ * Rotate Sass
+ *
+ * Ex: @include rotate(90deg);
+ * Values: deg, turn or rad
+ *
+ */
+@mixin rotate($rotate) {
+  -webkit-transform: rotate($rotate);
+     -moz-transform: rotate($rotate);
+  transform: rotate($rotate);
+}
+
+
+
+/*
+ * Scale Sass
+ *
+ * Ex: @include scale(0.7);
+ *
+ */
+@mixin scale($scale) {
+  -webkit-transform: scale($scale);
+     -moz-transform: scale($scale);
+  transform: scale($scale);
+}
+
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: $color-first;
+  margin: 10% 40%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  @include rotate(20deg);
+}
