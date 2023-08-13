@@ -26,9 +26,11 @@ define("WEBSITE", [
     // Metas Tags
     "locale" => "pt-br",
     // "schema" => "https://schema.org/WebSite",
-    "schema" => "WebSite",
+    "schema" => "https://schema.org/WebSite",
     "schemaog" => "https://ogp.me/ns#",
     "charset" => "UTF-8",
+    "viewport" => "width=device-width, initial-scale=1.0",
+    "robots" => "index, follow",
     // "root" => "http://localhost/darlisamorim",
 
     // Imagens Defaults
@@ -76,6 +78,8 @@ define("GOOGLE", [
     */
     "fontname" => "Source+Code+Pro",
     "fontweight" => "200;300;400;500;600;700;800;900",
+    "fontname_last" => "Raleway",
+    "fontweight_last" => "100;200;300;400;500;600;700;800;900",
     "googleverify" => "coding",
 ]);
 
