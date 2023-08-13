@@ -1,9 +1,14 @@
-/* dLs Modify Reset Style  test */
+/*
+ *
+ * dLs Modify
+ * Reset Style
+ *
+ */
 *, *:after, *:before {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+     -moz-box-sizing: border-box;
   box-sizing: border-box;
 
   border: 0;
@@ -96,9 +101,9 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-name);
-  font-size: var(--font-normal);
-  background-color: var(--white);
+  font-family: 'Source Code Pro', monospace;
+  font-size: $font__normal;
+  background-color: $color__white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

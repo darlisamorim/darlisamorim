@@ -1,7 +1,109 @@
 /*
  *  Components
 */
-/* dLs Modify Reset Style  test */
+/* Variables OOCSS */
+/* Colors Options
+ * https://coolors.co/
+*/
+/* Default Colors */
+/* First Color  */
+/* Second Color  */
+/* Gradient Color */
+/* Container's Block */
+/* Hack's */
+.fz {
+  font-size: 0em !important;
+  padding: 0;
+  margin: 0;
+}
+
+.dn {
+  display: none;
+}
+
+/*
+ * Convert Size -> ( px ) to ( em ) {N / 16} = Result
+ *
+ * Size Font
+ *
+ */
+/* Size Font Icon */
+/*
+ *
+ * Contents Vars
+ *
+ */
+/* Container's Block */
+.container {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  width: 90%;
+  max-width: 1680px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Container's Flex */
+.container__flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content__flex {
+  width: 90%;
+  max-width: 1680px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/*
+ * Mixin's Sass
+ *
+ * Ex: @include radius(50%);
+ *
+ */
+/*
+ * Transition Sass
+ *
+ * Ex: @include transition(all 280ms ease-in-out);
+ *
+ */
+/*
+ * Box-Shadow Sass
+ *
+ * Ex: @include tshadow(2px 2px 10px 2px $color);
+ *
+ */
+/*
+ * Text-Shadow Sass
+ *
+ * Ex: @include tshadow(2px 2px 10px 2px $color);
+ *
+ */
+/*
+ * Rotate Sass
+ *
+ * Ex: @include rotate(90deg);
+ * Values: deg, turn or rad
+ *
+ */
+/*
+ * Scale Sass
+ *
+ * Ex: @include scale(0.7);
+ *
+ */
+/*
+ *
+ * dLs Modify
+ * Reset Style
+ *
+ */
 *, *:after, *:before {
   margin: 0;
   padding: 0;
@@ -93,9 +195,9 @@ html {
  */
 body {
   margin: 0;
-  font-family: var(--font-name);
-  font-size: var(--font-normal);
-  background-color: var(--white);
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.875em;
+  background-color: hsl(0, 0%, 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -389,117 +491,6 @@ template {
  */
 [hidden] {
   display: none;
-}
-
-/* Variables OOCSS */
-/* Colors Options
- * https://coolors.co/
-*/
-/* Default Colors */
-/* First Color  */
-/* Second Color  */
-/* Gradient Color */
-/* Container's Block */
-/* Hack's */
-.fz {
-  font-size: 0em !important;
-  padding: 0;
-  margin: 0;
-}
-
-.dn {
-  display: none;
-}
-
-/*
- * Convert Size -> ( px ) to ( em ) {N / 16} = Result
- *
- * Size Font
- *
- */
-/* Size Font Icon */
-/*
- *
- * Contents Vars
- *
- */
-/* Container's Block */
-.container {
-  width: 100%;
-  display: block;
-}
-
-.content {
-  width: 90%;
-  max-width: 1600px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Container's Flex */
-.container__flex {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.content__flex {
-  width: 90%;
-  max-width: 1600px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-/*
- * Mixin's Sass
- *
- *  EX: @include border-radius: 50%;
- *
- */
-/*
- * Transition Sass
- *
- *  EX: @include $transition: all 280ms ease-in-out;
- *
- */
-/*
- * Box-Shadow Sass
- *
- *  EX: @include $bshadow: 2px 2px 10px 2px $color;
- *
- */
-/*
- * Text-Shadow Sass
- *
- *  EX: @include $tshadow: 2px 2px 10px 2px $color;
- *
- */
-/*
- * Rotate Sass
- *
- * Ex: @include rotate(90deg);
- * Values: deg, turn or rad
- *
- */
-/*
- * Scale Sass
- *
- * Ex: @include scale(0.7);
- *
- */
-.test {
-  width: 200px;
-  height: 200px;
-  background-color: hsl(349.58, 96.38%, 43.33%);
-  margin: 10% 40%;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  -webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  transform: rotate(20deg);
 }
 
 /*!
