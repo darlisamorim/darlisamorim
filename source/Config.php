@@ -1,7 +1,7 @@
 <?php
 
 // URL BASE
-define('BASE', 'www.darlisalvesamorim.com'); // Url raiz do website
+define('BASE', 'https://darlisalvesamorim.dev'); // Url raiz do website
 
 // Verify if in server localhost or hosting
 if($_SERVER['HTTP_HOST'] == 'localhost'):
@@ -10,32 +10,15 @@ else:
     define('DOMAIN', 'https://darlisalvesamorim.dev'); // Url raiz do website
 endif;
 
+// Url Param
+function url(string $uri = null): string
+{
+    if ($uri) {
+        return DOMAIN . "/{$uri}";
+    }
 
-// Minify Website
-if($_SERVER["SERVER_NAME"] == "localhost"){
-    require __DIR__ . "/Minify.php";
+    return DOMAIN;
 }
-
-// Database Website
-
-define("DATABASE", [
-
-]);
-const DATA_LAYER_CONFIG = [
-    "driver" => "mysql",
-    "host" => "localhost",
-    "port" => "3306",
-    "dbname" => "dls",
-    "username" => "root",
-    "passwd" => "",
-    "options" => [
-        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
-        PDO::ATTR_CASE => PDO::CASE_NATURAL
-    ]
-];
-
 
 // Default Website
 define("WEBSITE", [
@@ -97,11 +80,27 @@ define("GOOGLE", [
 ]);
 
 
-define("NETWORKS", [
+define("METAS", [
+
+    // Links
     "links" => "https://linktr.ee/darlisamorim",
-    "linkedin" => "https://www.linkedin.com/in/darlisamorim",
+
+    // Facebook
+    // "facebook" => "@darlisamorim",
+    "facebook" => "https://www.facebook.com/darlisalvesamorim",
+    "facebook_page" => "https://www.facebook.com/darlisamorim",
+    "facebook_page_ID" => "22222",
+    "facebook_app_ID" => "22222",
+
+    // Twitter
     "twitter" => "@darlisamorim",
-    "facebook" => "@darlisamorim",
+    // "twitter_creator" => "@darlisamorim",
+    // "twitter_site" => "@darlisamorim",
+
+    // Linkedin
+    "linkedin" => "https://www.linkedin.com/in/darlisamorim",
+
+    // Nets
     "instagram" => "darlisamorim",
     "github" => "darlisamorim",
     "codepen" => "darlisamorim",
@@ -114,15 +113,42 @@ define("NETWORKS", [
     "tiktok" => "@darlisamorim"
 ]);
 
+// Mail
+define("MAIL", [
+    // Server
+    "host" => "smtp.hostinger.com", // SMTP
+    "mode" => "ssl", // SSL/TLS
+    "port" => "465", // PORTA
 
-define("SEO", [
-    // Facebook
-    "facebook" => "https://www.facebook.com/darlisalvesamorim",
-    "facebook_page" => "https://www.facebook.com/darlisamorim",
-    "facebook_page_ID" => "22222",
-    "facebook_app_ID" => "22222",
+    // User Server
+    "user" => "eu@darlisalvesamorim.dev", // eu@eu....
+    "passwd" => "SENHA", // SENHA
 
-    // Twitter
-    "twitter_creator" => "",
-    "twitter_site" => "",
+    // Content E-mail
+    "sender" => "Darlis A. Amorim | Developer & Design", // Remetente
+
+    // Verify
+    "testing" => "test@darlisalvesamorim.dev" // Rementente de Tes; eu@test....
 ]);
+
+
+// Minify Website
+
+
+
+// Database Website
+define("DATABASE", []);
+const DATA_LAYER_CONFIG = [
+    "driver" => "mysql",
+    "host" => "localhost",
+    "port" => "3306",
+    "dbname" => "dls",
+    "username" => "root",
+    "passwd" => "",
+    "options" => [
+        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
+        PDO::ATTR_CASE => PDO::CASE_NATURAL
+    ]
+];

@@ -16,6 +16,7 @@ $router = new Router(DOMAIN);
  */
 $router->namespace("Source\Controllers");
 
+
 /**
  * Web
  * Home
@@ -24,13 +25,6 @@ $router->group(null);
 $router->get("/", "Web:home");
 $router->get("/open-source", "Web:source");
 
-
-/**
- * Routas
- * Redirects
- */
-$router->group("pages");
-$router->get("/", "Web:source");
 
 /**
  * 404
@@ -44,6 +38,7 @@ $router->get("/source", "Web:error");
  * Render
  */
 $router->dispatch();
+
 
 /**
  * Redirect 404

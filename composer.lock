@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f000b06e04db69530ec95466b46f4e95",
+    "content-hash": "157ce8a80185cbe98d657f93999e2cd3",
     "packages": [
         {
             "name": "coffeecode/datalayer",
@@ -160,70 +160,6 @@
                 "source": "https://github.com/robsonvleite/router/tree/2.0.2"
             },
             "time": "2022-04-23T16:01:23+00:00"
-        },
-        {
-            "name": "league/plates",
-            "version": "dev-support-php-82",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/plates.git",
-                "reference": "8f49b8b630222c75d38c903a5f852d3874f98b25"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/plates/zipball/8f49b8b630222c75d38c903a5f852d3874f98b25",
-                "reference": "8f49b8b630222c75d38c903a5f852d3874f98b25",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0|^8.0"
-            },
-            "require-dev": {
-                "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": "^9.5",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Plates\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Reinink",
-                    "email": "jonathan@reinink.ca",
-                    "role": "Developer"
-                },
-                {
-                    "name": "RJ Garcia",
-                    "email": "ragboyjr@icloud.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
-            "homepage": "https://platesphp.com",
-            "keywords": [
-                "league",
-                "package",
-                "templates",
-                "templating",
-                "views"
-            ],
-            "support": {
-                "issues": "https://github.com/thephpleague/plates/issues",
-                "source": "https://github.com/thephpleague/plates/tree/support-php-82"
-            },
-            "time": "2023-01-15T02:53:17+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -433,9 +369,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "league/plates": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

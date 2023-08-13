@@ -2,7 +2,7 @@
       Schema Microdata
       https://schema.org or https://schema.org/WebSite
     -->
-    <meta itemprop="name" content="<?= DAA_NAME; ?> | <?= DAA_SUBNAME; ?>" />
+    <meta itemprop="name" content=" | <?= DAA_SUBNAME; ?>" />
     <meta itemprop="description" content="<?= DAA_DESCRIPTION; ?>" />
     <meta itemprop="url" content="<?= DOMAIN; ?>" />
     <meta itemprop="image" content="<?= DOMAIN; ?>/_storage/images/<?= DAA_IMAGE_SHARE; ?>" />

@@ -1,2 +1,3 @@
 <?php
-echo "<h1>Error 404!</h1>";
+echo "<h1>Error {$data["errcode"]}!</h1>";
+var_dump($data);
