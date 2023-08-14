@@ -197,7 +197,8 @@ body {
   margin: 0;
   font-family: "Source Code Pro", monospace;
   font-size: 0.875em;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(228, 9.8%, 10%);
+  color: hsl(0, 0%, 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23666,4 +23667,4 @@ readers do not read off random characters that represent icons */
   content: "\eaea";
 }
 
-/*# sourceMappingURL=base.css.map */
+/*# sourceMappingURL=build.css.map */

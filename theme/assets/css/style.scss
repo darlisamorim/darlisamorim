@@ -1,17 +1,18 @@
 /*
- *  All Components & Folds
+ *  Constructor
 */
-@import "../../../../shared/styles/normalize";
-@import "../../../../shared/styles/fonts";
-@import "components/oocss";
+@import "../../../shared/css/build";
+
+/*
+ *  Components
+*/
 @import "components/queries";
-@import "../../../../shared/styles/animate";
 
-
-
+/*
+ *  Folds
+*/
 @import "folds/header";
 @import "folds/main";
+@import "folds/page";
 @import "folds/footer";
-
-
 

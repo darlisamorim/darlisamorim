@@ -30,8 +30,9 @@
     <link href="https://fonts.googleapis.com/css2?family=<?= GOOGLE["fontname"] ?>:wght@<?= GOOGLE["fontweight"] ?>&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=<?= GOOGLE["fontname_last"] ?>:wght@<?= GOOGLE["fontweight_last"] ?>&display=swap" rel="stylesheet">
 
-    <!-- All Styles -->
-    <link rel="stylesheet" href="<?= assetShared("css/base.css") ?>"> <!-- Default CSS -->
+    <!-- All CSS -->
+    <link rel="stylesheet" href="<?= assetShared("css/build.css") ?>"> <!-- Default CSS -->
+    <link rel="stylesheet" href="<?= assetTheme("css/style.css") ?>"> <!-- Default CSS -->
 
     <!--[if lt IE 9]>
     <script src="<?= assetShared("js/html5shiv.js") ?>"></script>
@@ -40,9 +41,9 @@
 </head>
 <body>
 
-<header class="header">
+<header class="header container__flex">
 
-    <div class="">
+    <div class="content__flex">
 
         <h1 class="logotipo">
             Darlis

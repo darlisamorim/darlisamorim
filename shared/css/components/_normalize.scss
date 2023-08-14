@@ -103,7 +103,8 @@ body {
   margin: 0;
   font-family: 'Source Code Pro', monospace;
   font-size: $font__normal;
-  background-color: $color__white;
+  background-color: $color__gray;
+  color: $color__white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
