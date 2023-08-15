@@ -1,5 +1,8 @@
-    <footer class="footer container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta distinctio est, libero molestias mollitia nihil non odit quam reprehenderit, ullam vitae. Doloremque ipsum, maxime.</p>
+    <footer class="footer container__flex">
+        <div class="content__flex">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta distinctio est, libero molestias mollitia nihil non odit quam reprehenderit, ullam vitae. Doloremque ipsum, maxime.</p>
+            <b><?= date('Y'); ?></b>
+        </div>
     </footer>
     <!-- Fim Footer -->
 

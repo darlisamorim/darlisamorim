@@ -46,27 +46,30 @@
     <div class="content__flex">
 
         <h1 class="logotipo">
-            Darlis
-            <b>A. Amorim<span>_</span></b>
+            <a title="<?= WEBSITE["name"] ?> | <?= WEBSITE["description"] ?>" href="<?= DOMAIN; ?>">
+                Darlis
+                <b>A. Amorim<span>_</span></b>
+                <span class="fz">| <?= WEBSITE["description"] ?>.</span>
+            </a>
         </h1>
         <!-- Fim Logotipo -->
 
         <nav class="nav__menu">
-            <h3 class="fz">Navegação {SITE_TITLE}</h3>
+            <h3 class="fz">Navegação | <?= WEBSITE["name"] ?></h3>
             <ul>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Home</a></li>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Sobre mim</a></li>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Open Source</a></li>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Fale Comigo</a></li>
+                <li><a title="Página Inicial | <?= WEBSITE["name"] ?>" href="#">Home</a></li>
+                <li><a title="Sobre Mim| <?= WEBSITE["name"] ?>" href="#">Sobre mim</a></li>
+                <li><a title="Projetos Gratuitos | <?= WEBSITE["name"] ?>" href="#">Open Source</a></li>
+                <li><a title="Fale Comigo | <?= WEBSITE["name"] ?>" href="#">Fale Comigo</a></li>
             </ul>
             <!-- Fim Ul -->
         </nav>
         <!-- Fim Nav -->
 
         <ul class="nav__contact">
-            <li><a title="<?= WEBSITE["name"] ?>" href="#"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
-            <li><a title="<?= WEBSITE["name"] ?>" href="#"><i class="fa-brands fa-github"></i> GitHub</a></li>
-            <li><a title="<?= WEBSITE["name"] ?>" href="#"><i class="fa-solid fa-envelope"></i> E-mail</a></li>
+            <li><a title="LinkedIn | <?= WEBSITE["name"] ?>" href="<?= METAS["linkedin"] ?>" target="_blank"><i class='bx bxl-linkedin' ></i> LinkedIn</a></li>
+            <li><a title="GitHub | <?= WEBSITE["name"] ?>" href="<?= METAS["github"] ?>" target="_blank"><i class='bx bxl-github' ></i> GitHub</a></li>
+            <li><a title="E-mail | <?= WEBSITE["name"] ?>" href="mailto:<?= WEBSITE["email"] ?>"><i class='bx bxs-envelope' ></i> E-mail</a></li>
         </ul>
 
     </div>

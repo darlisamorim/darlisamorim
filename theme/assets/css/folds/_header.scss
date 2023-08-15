@@ -32,6 +32,12 @@
     }
     span {
       font-weight: 700;
+      color: $color__white;
+    }
+
+    a {
+      color: $color__white;
+      text-decoration: none;
     }
   }
 
@@ -82,7 +88,8 @@
       color: $color__white;
       @include transition(all 280ms ease-in-out);
 
-      &:hover {
+      &:hover,
+      &:hover .bx {
         color: $color__first;
         font-weight: 900;
         @include transition(all 280ms ease-in-out);
@@ -91,6 +98,15 @@
       &:hover:after {
         content: "_";
         position: absolute;
+      }
+
+      .bx {
+        position: relative;
+        top: 2px;
+        font-size: $font__icon__normal;
+        color: $color__white;
+        @include transition(all 280ms ease-in-out);
+
       }
     }
 

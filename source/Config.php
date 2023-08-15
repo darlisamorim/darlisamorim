@@ -106,7 +106,7 @@ define("METAS", [
 
     // Nets
     "instagram" => "darlisamorim",
-    "github" => "darlisamorim",
+    "github" => "https://github.com/darlisamorim",
     "codepen" => "darlisamorim",
     "devto" => "darlisamorim",
     "medium" => "@darlisamorim",
