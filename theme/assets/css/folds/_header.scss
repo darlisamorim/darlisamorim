@@ -1,5 +1,5 @@
 .header {
-  padding: 20px 40px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,4 +13,94 @@
   top: 0;
   left: 0;
   margin: 0;
+
+
+
+  .content__flex {
+    justify-content: space-between;
+  }
+
+  .logotipo {
+    text-transform: uppercase;
+    font-family: $fontname_last;
+    font-size: $font__big;
+    font-weight: 700;
+
+    b {
+      font-weight: 400;
+      color: $color__gray__clean;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .nav__menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      margin-right: 42px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: $color__white;
+      @include transition(all 280ms ease-in-out);
+
+      &:hover {
+        color: $color__first;
+        font-weight: 900;
+        @include transition(all 280ms ease-in-out);
+      }
+
+      &:hover:after {
+        content: "_";
+        position: absolute;
+      }
+    }
+  }
+
+  .nav__contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: $color__white;
+      @include transition(all 280ms ease-in-out);
+
+      &:hover {
+        color: $color__first;
+        font-weight: 900;
+        @include transition(all 280ms ease-in-out);
+      }
+
+      &:hover:after {
+        content: "_";
+        position: absolute;
+      }
+    }
+
+    li {
+      margin-right: 42px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
 }

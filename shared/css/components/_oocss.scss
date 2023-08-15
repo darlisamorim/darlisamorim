@@ -8,6 +8,7 @@
 $color__white: hsl(0, 0%, 100%);
 $color__black: hsl(0, 0%, 0%);
 $color__gray: hsl(228, 9.8%, 10%);
+$color__gray__clean: hsl(0, 0%, 86%);
 
 /* First Color  */
 $color__first__hue: 349.58;
@@ -33,6 +34,7 @@ $color__second: hsla($color__second__hue, 66.07%, 56.08%, $color__second__hsla);
 
 /* Container's Block */
 $font__name: 'Source Code Pro', monospace;
+$fontname_last: 'Raleway', sans-serif;
 $fz: 0em !important;
 $mz: 0;
 $pz: 0;

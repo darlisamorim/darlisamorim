@@ -23685,7 +23685,7 @@ readers do not read off random characters that represent icons */
  *  Folds
 */
 .header {
-  padding: 20px 40px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23699,6 +23699,85 @@ readers do not read off random characters that represent icons */
   top: 0;
   left: 0;
   margin: 0;
+}
+.header .content__flex {
+  justify-content: space-between;
+}
+.header .logotipo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+.header .logotipo b {
+  font-weight: 400;
+  color: hsl(0, 0%, 86%);
+}
+.header .logotipo span {
+  font-weight: 700;
+}
+.header .nav__menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .nav__menu ul {
+  display: flex;
+}
+.header .nav__menu li {
+  margin-right: 42px;
+}
+.header .nav__menu li:last-child {
+  margin-right: 0;
+}
+.header .nav__menu a {
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  -webkit-transition: all 280ms ease-in-out;
+  -moz-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+}
+.header .nav__menu a:hover {
+  color: hsl(349.58, 96.38%, 43.33%);
+  font-weight: 900;
+  -webkit-transition: all 280ms ease-in-out;
+  -moz-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+}
+.header .nav__menu a:hover:after {
+  content: "_";
+  position: absolute;
+}
+.header .nav__contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .nav__contact a {
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  -webkit-transition: all 280ms ease-in-out;
+  -moz-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+}
+.header .nav__contact a:hover {
+  color: hsl(349.58, 96.38%, 43.33%);
+  font-weight: 900;
+  -webkit-transition: all 280ms ease-in-out;
+  -moz-transition: all 280ms ease-in-out;
+  transition: all 280ms ease-in-out;
+}
+.header .nav__contact a:hover:after {
+  content: "_";
+  position: absolute;
+}
+.header .nav__contact li {
+  margin-right: 42px;
+}
+.header .nav__contact li:last-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

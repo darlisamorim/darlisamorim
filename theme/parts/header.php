@@ -47,26 +47,26 @@
 
         <h1 class="logotipo">
             Darlis
-            <span>Alves Amorim_</span>
+            <b>A. Amorim<span>_</span></b>
         </h1>
         <!-- Fim Logotipo -->
 
         <nav class="nav__menu">
             <h3 class="fz">Navegação {SITE_TITLE}</h3>
             <ul>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Test</a></li>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Test</a></li>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Test</a></li>
-                <li><a title="<?= WEBSITE["name"] ?>" href="#">Test</a></li>
+                <li><a title="<?= WEBSITE["name"] ?>" href="#">Home</a></li>
+                <li><a title="<?= WEBSITE["name"] ?>" href="#">Sobre mim</a></li>
+                <li><a title="<?= WEBSITE["name"] ?>" href="#">Open Source</a></li>
+                <li><a title="<?= WEBSITE["name"] ?>" href="#">Fale Comigo</a></li>
             </ul>
             <!-- Fim Ul -->
         </nav>
         <!-- Fim Nav -->
 
         <ul class="nav__contact">
-            <li><a title="<?= WEBSITE["name"] ?>" href="#"><?= WEBSITE["name"] ?></a></li>
-            <li><a title="<?= WEBSITE["name"] ?>" href="#"><?= WEBSITE["name"] ?></a></li>
-            <li><a title="<?= WEBSITE["name"] ?>" href="#"><?= WEBSITE["name"] ?></a></li>
+            <li><a title="<?= WEBSITE["name"] ?>" href="#"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+            <li><a title="<?= WEBSITE["name"] ?>" href="#"><i class="fa-brands fa-github"></i> GitHub</a></li>
+            <li><a title="<?= WEBSITE["name"] ?>" href="#"><i class="fa-solid fa-envelope"></i> E-mail</a></li>
         </ul>
 
     </div>
