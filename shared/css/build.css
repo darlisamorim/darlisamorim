@@ -10,17 +10,6 @@
 /* Second Color  */
 /* Gradient Color */
 /* Container's Block */
-/* Hack's */
-.fz {
-  font-size: 0em !important;
-  padding: 0;
-  margin: 0;
-}
-
-.dn {
-  display: none;
-}
-
 /*
  * Convert Size -> ( px ) to ( em ) {N / 16} = Result
  *
@@ -98,6 +87,29 @@
  * Ex: @include scale(0.7);
  *
  */
+/* Hack's end Tools */
+.fz {
+  font-size: 0em !important;
+  padding: 0;
+  margin: 0;
+}
+
+.dn {
+  display: none;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 12px 20px;
+  background-color: hsl(349.58, 96.38%, 43.33%);
+  text-transform: capitalize;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: hsl(0, 0%, 0%);
+}
+
 /*
  *
  * dLs Modify

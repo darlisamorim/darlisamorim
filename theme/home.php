@@ -9,6 +9,8 @@
 
         <section class="content__flex">
             <h1>dsd</h1>
+
+            <strong class="tag">Full Stack</strong>
         </section>
         <!--  -->
 

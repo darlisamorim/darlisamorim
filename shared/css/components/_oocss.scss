@@ -40,16 +40,6 @@ $mz: 0;
 $pz: 0;
 $dn: none;
 
-/* Hack's */
-.fz {
-  font-size: $fz;
-  padding: $pz;
-  margin: $mz;
-}
-.dn {
-  display: $dn;
-}
-
 
 /*
  * Convert Size -> ( px ) to ( em ) {N / 16} = Result
@@ -180,4 +170,26 @@ $content__width: 90%;
   -webkit-transform: scale($scale);
      -moz-transform: scale($scale);
   transform: scale($scale);
+}
+
+
+/* Hack's end Tools */
+.fz {
+  font-size: $fz;
+  padding: $pz;
+  margin: $mz;
+}
+.dn {
+  display: $dn;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 12px 20px;
+  background-color: $color__first;
+  text-transform: capitalize;
+  font-size: $font__normal;
+  font-weight: 700;
+  color: $color__black;
 }
