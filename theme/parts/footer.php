@@ -1,8 +1,18 @@
     <footer class="footer container__flex">
-        <div class="content__flex">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dicta distinctio est, libero molestias mollitia nihil non odit quam reprehenderit, ullam vitae. Doloremque ipsum, maxime.</p>
+
+        <p class="logotipo content__flex">
+            <a title="<?= WEBSITE["name"] ?> | <?= WEBSITE["description"] ?>" href="<?= DOMAIN; ?>">
+                Darlis
+                <b>A. Amorim<span>_</span></b>
+                <span class="fz">| <?= WEBSITE["description"] ?>.</span>
+            </a>
+        </p>
+        <!-- Fim Logotipo -->
+
+        <div class="date content__flex">
             <b><?= date('Y'); ?></b>
         </div>
+
     </footer>
     <!-- Fim Footer -->
 

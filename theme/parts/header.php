@@ -58,7 +58,7 @@
             <h3 class="fz">Navegação | <?= WEBSITE["name"] ?></h3>
             <ul>
                 <li><a title="Página Inicial | <?= WEBSITE["name"] ?>" href="#">Home</a></li>
-                <li><a title="Sobre Mim| <?= WEBSITE["name"] ?>" href="#">Sobre mim</a></li>
+                <li><a title="Sobre Mim| <?= WEBSITE["name"] ?>" href="#">Sobre Mim</a></li>
                 <li><a title="Projetos Gratuitos | <?= WEBSITE["name"] ?>" href="#">Open Source</a></li>
                 <li><a title="Fale Comigo | <?= WEBSITE["name"] ?>" href="#">Fale Comigo</a></li>
             </ul>

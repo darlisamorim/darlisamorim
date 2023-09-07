@@ -2,15 +2,13 @@
 
 
     <main class="main container__flex">
-<!---->
-<!--        <h1 class="test">-->
-<!--            block-->
-<!--        </h1>-->
 
-        <section class="content__flex">
-            <h1>dsd</h1>
+        <section class="content__flex bio">
 
             <strong class="tag">Full Stack</strong>
+
+            <h1>dsddsds</h1>
+
         </section>
         <!--  -->
 

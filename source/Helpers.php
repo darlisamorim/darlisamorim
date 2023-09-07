@@ -33,6 +33,7 @@ function assetShared(string $path): string
 
     return true;
 }
+
 //function asset(string $path): string
 //{
     //    if(!empty(DOMAIN . "/theme/assets/{$path}")) {

@@ -14,109 +14,108 @@
   left: 0;
   margin: 0;
 
-
-
   .content__flex {
     justify-content: space-between;
   }
 
-  .logotipo {
-    text-transform: uppercase;
-    font-family: $fontname_last;
-    font-size: $font__big;
+}
+
+
+.logotipo {
+  text-transform: uppercase;
+  font-family: $fontname_last;
+  font-size: $font__big;
+  font-weight: 700;
+
+  b {
+    font-weight: 400;
+    color: $color__gray__clean;
+  }
+  span {
     font-weight: 700;
+    color: $color__white;
+  }
 
-    b {
-      font-weight: 400;
-      color: $color__gray__clean;
-    }
-    span {
-      font-weight: 700;
-      color: $color__white;
-    }
+  a {
+    color: $color__white;
+    text-decoration: none;
+  }
+}
 
-    a {
-      color: $color__white;
-      text-decoration: none;
+.nav__menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin-right: 42px;
+
+    &:last-child {
+      margin-right: 0;
     }
   }
 
-  .nav__menu {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: $color__white;
+    @include transition(all 280ms ease-in-out);
 
-    ul {
-      display: flex;
+    &:hover {
+      color: $color__first;
+      font-weight: 900;
     }
 
-    li {
-      margin-right: 42px;
+    &:hover:after {
+      content: "_";
+      position: absolute;
+    }
+  }
 
-      &:last-child {
-        margin-right: 0;
-      }
+}
+
+.nav__contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: $color__white;
+    @include transition(all 280ms ease-in-out);
+
+    &:hover,
+    &:hover .bx {
+      color: $color__first;
+      font-weight: 900;
+      @include transition(all 280ms ease-in-out);
     }
 
-    a {
-      text-decoration: none;
-      font-weight: 600;
+    &:hover:after {
+      content: "_";
+      position: absolute;
+    }
+
+    .bx {
+      position: relative;
+      top: 2px;
+      font-size: $font__icon__normal;
       color: $color__white;
       @include transition(all 280ms ease-in-out);
 
-      &:hover {
-        color: $color__first;
-        font-weight: 900;
-        @include transition(all 280ms ease-in-out);
-      }
-
-      &:hover:after {
-        content: "_";
-        position: absolute;
-      }
     }
   }
 
-  .nav__contact {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+  li {
+    margin-right: 42px;
 
-    a {
-      text-decoration: none;
-      font-weight: 600;
-      color: $color__white;
-      @include transition(all 280ms ease-in-out);
-
-      &:hover,
-      &:hover .bx {
-        color: $color__first;
-        font-weight: 900;
-        @include transition(all 280ms ease-in-out);
-      }
-
-      &:hover:after {
-        content: "_";
-        position: absolute;
-      }
-
-      .bx {
-        position: relative;
-        top: 2px;
-        font-size: $font__icon__normal;
-        color: $color__white;
-        @include transition(all 280ms ease-in-out);
-
-      }
-    }
-
-    li {
-      margin-right: 42px;
-
-      &:last-child {
-        margin-right: 0;
-      }
+    &:last-child {
+      margin-right: 0;
     }
   }
-
 }
