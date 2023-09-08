@@ -19397,8 +19397,19 @@ readers do not read off random characters that represent icons */
   margin-right: 0;
 }
 
-.main {
-  padding: 40px 0;
+.main .bio {
+  padding: 60px 0;
+  height: 100vh;
+  align-items: center;
+}
+.main .bio .tag {
+  display: initial;
+}
+.main .bio .itens__btn, .main .bio .networks {
+  margin: 20px 0;
+}
+.main .bio .networks {
+  display: flex;
 }
 
 .footer {

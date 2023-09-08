@@ -5,9 +5,28 @@
 
         <section class="content__flex bio">
 
-            <strong class="tag">Full Stack</strong>
+            <article class="description">
+                <strong class="tag">
+                    Full Stack
+                </strong>
 
-            <h1>dsddsds</h1>
+                <h1><?= WEBSITE["name"] ?></h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, dignissimos, nam? Delectus fugit iusto quasi.
+                </p>
+
+                <div class="itens__btn">
+                    <button type="button">Click Me!</button>
+                    <button type="button">Click Me!</button>
+                </div>
+
+            </article>
+            <!--  -->
+
+            <figure class="avatar">
+                <img src="<?= assetTheme("images/avatar.png"); ?>" alt="<?= WEBSITE["name"] ?> | <?= WEBSITE["description"] ?>">
+            </figure>
+            <!--  -->
 
         </section>
         <!--  -->
