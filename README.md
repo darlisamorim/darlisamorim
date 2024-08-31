@@ -52,6 +52,13 @@
   
 </p>
 
+<hr>
+
+> [!WARNING]
+> - Estou apresentando dois textos, um logo abaixo do outro. Cada texto é seguido pela sua tradução em inglês, que está em itálico para melhorar a compreensão e facilitar a comparação entre os idiomas. Esta abordagem oferece uma apresentação clara, destacando as traduções e mantendo o texto original em português visível para referência direta.
+ <!-- Este é um espaço em branco -->
+> -_I am presenting two texts, one immediately below the other. Each text is followed by its English translation, which is highlighted in italics to enhance understanding and facilitate comparison between the languages. This approach provides a clear presentation, highlighting the translations while keeping the original Portuguese text visible for direct reference._
+
 
 <hr>
 
